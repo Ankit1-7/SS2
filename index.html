@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Skool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SkillSKool</div>
+        <div class="nav-links">
+            <a href="#">Classroom</a>
+            <a href="#">Radar   </a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login / Signup</a>
+        </div>
+    </nav>
+
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="12817774_3840_2160_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section class="hero">
+        
+        <h1 id="main-heading">Learn Smart, Grow Fast</h1>
+        <div class="sub">
+        <p>Your personalized learning hub: Discover, learn, and grow smarter with AI-driven roadmaps, curated courses, certification pathways and job opportunities </p>
+
+        </div>
+        <div class="buttons">
+
+            <button class="btn" id="expl">Explore</button>
+            <button class="btn">Sign Up</button>
+            <button class="btn"  id="open-chat">Skill Genie</button>
+        </div>
+    </section>
+
+    <div id="chat-container" class="hidden">
+        <div class="chat-header">
+            <span>Skill Genie</span>
+            <button id="close-chat">&times;</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <p class="bot-message">Hello! Ask me anything.</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Type your question...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <div class="fuck">
+        <div class="carousel">
+            <button id="prev" class="arrow">&#10094;</button>
+            <div class="carousel-container">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image12.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+            <button id="next" class="arrow">&#10095;</button>
+        </div>
+    </div>
+    
+    <!-- <div class="image-container">
+        <img id="scroll-image" src="image1.jpg" alt="Expanding Image">
+    </div> -->
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Skill Genie, where we believe in smart learning for fast growth. 
+            Our mission is to provide high-quality learning resources to help individuals 
+            and businesses reach their full potential. Join us and unlock new skills today!
+        </p>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
